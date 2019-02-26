@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.aerogear.ionic.showcase" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.aerogear.sso.showcase" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>AeroGear Ionic Showcase</name>
     <description>Ionic Showcase app</description>
     <content src="index.html" />
@@ -95,6 +95,12 @@
     </plugin>
     <plugin name="cordova-plugin-local-notification" spec="0.9.0-beta.2" />
     <plugin name="cordova-sqlite-storage" spec="3.1.0" />
+    <plugin name="cordova-plugin-browsertab" spec="^0.2.0" />
+    <universal-links>
+        <host name="sso.showcase.aerogear.org">
+        </host>
+    </universal-links>
+    <plugin name="cordova-universal-links-plugin" spec="https://github.com/GEDYSIntraWare/cordova-universal-links-plugin.git" />
     <engine name="ios" spec="4.5.5" />
-    <engine name="android" spec="7.1.4" />
+    <engine name="android" spec="7.0.0" />
 </widget>

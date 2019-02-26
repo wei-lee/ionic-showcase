@@ -26,6 +26,7 @@
     "@angular/platform-browser": "^7.2.2",
     "@angular/platform-browser-dynamic": "^7.2.2",
     "@angular/router": "^7.2.2",
+    "@gedysintraware/cordova-universal-links-plugin": "git+https://github.com/GEDYSIntraWare/cordova-universal-links-plugin.git",
     "@ionic-native/core": "^5.0.0",
     "@ionic-native/dialogs": "^5.0.0",
     "@ionic-native/ionic-webview": "5.0.0",
@@ -36,9 +37,11 @@
     "@ionic/angular": "^4.0.0",
     "@ionic/storage": "^2.2.0",
     "apollo-upload-client": "^10.0.0",
-    "cordova-android": "7.1.4",
+    "cordova-android": "7.0.0",
     "cordova-ios": "4.5.5",
     "cordova-plugin-badge": "0.8.8",
+    "cordova-plugin-browsertab": "^0.2.0",
+    "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-dialogs": "^2.0.1",
     "cordova-plugin-inappbrowser": "3.0.0",
@@ -105,12 +108,14 @@
       },
       "cordova-plugin-pincheck": {},
       "cordova-plugin-dialogs": {},
+      "cordova-plugin-local-notification": {},
+      "cordova-sqlite-storage": {},
       "phonegap-plugin-push": {
         "ANDROID_SUPPORT_V13_VERSION": "27.+",
         "FCM_VERSION": "11.6.2"
       },
-      "cordova-plugin-local-notification": {},
-      "cordova-sqlite-storage": {}
+      "cordova-plugin-browsertab": {},
+      "cordova-universal-links-plugin": {}
     },
     "platforms": [
       "ios",
