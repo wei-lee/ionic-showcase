@@ -97,7 +97,8 @@
     <plugin name="cordova-sqlite-storage" spec="3.1.0" />
     <plugin name="cordova-plugin-browsertab" spec="^0.2.0" />
     <universal-links>
-        <host name="sso.showcase.aerogear.org">
+        <host name="sso.showcase.aerogear.org" scheme="https">
+            <path event="keycloak" url="/login" />
         </host>
     </universal-links>
     <plugin name="cordova-universal-links-plugin" spec="https://github.com/GEDYSIntraWare/cordova-universal-links-plugin.git" />

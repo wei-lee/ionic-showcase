@@ -19,7 +19,7 @@ export class AuthService {
         if (this.isEnabled()) {
             this.auth = new Auth(this.openShift.getConfig());
             this.initialized = platform.ready().then(() => {
-                const initOptions: KeycloakInitOptions = { onLoad: 'login-required', adapter: 'cordova-native', redirectUri:'android-app://org.aerogear.sso.showcase/http/sso.showcase.aerogear.org' };
+                const initOptions: KeycloakInitOptions = { onLoad: 'login-required', adapter: 'cordova-native', redirectUri:'android-app://org.aerogear.sso.showcase/https/sso.showcase.aerogear.org/login' };
                 return this.auth.init(initOptions);
             });
         }
