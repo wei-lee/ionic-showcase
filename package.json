@@ -63,7 +63,8 @@
     "phonegap-plugin-push": "2.2.3",
     "rxjs": "~6.3.3",
     "subscriptions-transport-ws": "^0.9.15",
-    "zone.js": "~0.8.29"
+    "zone.js": "~0.8.29",
+    "cordova-universal-links-plugin": "https://github.com/GEDYSIntraWare/cordova-universal-links-plugin.git"
   },
   "devDependencies": {
     "@angular-devkit/architect": "~0.12.3",

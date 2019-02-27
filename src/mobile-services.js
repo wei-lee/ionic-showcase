@@ -13,7 +13,7 @@ let config = {
         "confidential-port": 0,
         "public-client": true,
         "realm": "test",
-        "resource": "sso-test",
+        "resource": "org.aerogear.ionic.showcase-public",
         "ssl-required": "external"
       }
     },
